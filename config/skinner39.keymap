@@ -9,19 +9,19 @@
 
         default_layer {
             bindings = <
-  &kp Q      &kp W         &kp E         &kp R         &kp T                                    &kp Y            &kp U  &kp I      &kp O       &kp P
-  &kp A      &kp S         &kp D         &kp F         &kp G                                    &kp H            &kp J  &kp K      &kp L       &kp SEMI
-  &kp Z      &kp X         &kp C         &kp V         &kp B                                    &kp N            &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-  &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 6 ESCAPE  &lt 4 SPACE  &lt 5 LA(GRAVE)  &kp ENTER  &lt 2 BACKSPACE                                &kp RIGHT_SHIFT
+  &kp Q      &kp W         &kp E         &kp R         &kp T                                                        &kp Y            &kp U  &kp I      &kp O       &kp P
+  &kp A      &kp S         &kp D         &kp F         &kp G                                                        &kp H            &kp J  &kp K      &kp L       &kp ENTER
+  &kp Z      &kp X         &kp C         &kp V         &kp B                                                        &kp N            &kp M  &kp COMMA  &kp PERIOD  &kp AT
+  &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 ESCAPE  &lt 4 SPACE  &lt 5 LANGUAGE_2  &mt RIGHT_CONTROL LANGUAGE_1  &lt 2 BACKSPACE                                &kp RIGHT_SHIFT
             >;
         };
 
         number_layer {
             bindings = <
-  &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4     &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans                        &trans        &trans        &trans        &trans        &trans
-  &trans          &trans          &trans        &trans           &trans                        &trans        &trans        &trans        &trans        &trans
-  &trans          &trans          &trans        &trans           &trans        &trans  &trans  &trans                                                  &trans
+  &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK                    &kp SINGLE_QUOTE   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN
+  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERCENT                  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON      &kp SEMI
+  &kp MINUS     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH                    &trans             &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &kp EXCLAMATION
+  &trans        &trans        &trans        &trans        &trans       &trans  &trans  &trans                                                                         &trans
             >;
         };
 
